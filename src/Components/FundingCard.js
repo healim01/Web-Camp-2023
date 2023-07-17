@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
-import PropTypes from 'prop-types';
-import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
 
 const Card = styled.div`

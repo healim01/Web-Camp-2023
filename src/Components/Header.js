@@ -15,7 +15,6 @@ const FirstRow = styled.div`
   background-color: white;
   padding: 20px;
   border-bottom: 2px solid lightgray;
-  /* justify-content: space-between; */
 `;
 
 const Logo = styled.img`
@@ -24,7 +23,6 @@ const Logo = styled.img`
 `;
 
 const ButtonDefault = styled.button`
-  /* padding: 8px 16px; */
   font-size: 14px;
   border: none;
   border-radius: 15px;

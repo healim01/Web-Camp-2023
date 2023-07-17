@@ -8,6 +8,7 @@ import PopUp from '../Components/PopUp';
 // import Footer from '../components/Footer';
 // import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
+import Header from '../Components/Header';
 
 const funds = [
   {
@@ -238,7 +239,7 @@ function Funding() {
 
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Fund>
         <Category> {funds[fundingId]?.category} </Category>
         <ProTitle> {funds[fundingId]?.title} </ProTitle>

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { ThemeProvider } from '@mui/material/styles';
+// import { ThemeProvider } from '@mui/material/styles';
 import Router from './Router';
 import React from 'react';
 import { ReactQueryDevtools } from 'react-query/devtools';

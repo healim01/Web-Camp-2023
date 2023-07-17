@@ -135,7 +135,7 @@ const Grids = styled.div`
 `;
 
 function Home() {
-  const { roomId } = useParams();
+  //   const { roomId } = useParams();
 
   //   const { isLoading, data: room } = useQuery(
   //     ['room', roomId],
