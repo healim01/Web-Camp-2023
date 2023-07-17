@@ -103,7 +103,7 @@ const HostName = styled(HostDetail)`
 `;
 
 const PageContainer = styled.div`
-  padding: 50px 400px;
+  padding: 50px 200px;
 `;
 
 const Title = styled.div`
@@ -125,7 +125,7 @@ const Funds = styled.div`
   flex-direction: column;
   text-align: center;
   min-width: 980px;
-  padding: 0px 400px;
+  padding: 0px 200px;
 `;
 
 const Grids = styled.div`
