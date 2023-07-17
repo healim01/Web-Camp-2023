@@ -103,7 +103,7 @@ const HostName = styled(HostDetail)`
 `;
 
 const PageContainer = styled.div`
-  padding: 30px 200px;
+  padding: 50px 400px;
 `;
 
 const Title = styled.div`
@@ -125,13 +125,13 @@ const Funds = styled.div`
   flex-direction: column;
   text-align: center;
   min-width: 980px;
-  padding: 0px 200px;
+  padding: 0px 400px;
 `;
 
 const Grids = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px;
+  gap: 10px;
 `;
 
 function Home() {
