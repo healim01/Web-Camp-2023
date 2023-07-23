@@ -1,9 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Funding from './routes/Funding';
-// import MakeFund from './routes/MakeFund';
-// import Room from './routes/Room';
 import Home from './routes/Home';
-// import MakeFund1 from './routes/MakeFund';
+import CreateFund from './routes/CreateFund';
 
 function Router() {
   return (
@@ -18,9 +16,9 @@ function Router() {
         {/* <Route exact path="/room/:roomId/funding/:fundingId">
           <Funding />
         </Route> */}
-        {/* <Route exact path="/room/:roomId/make">
-          <MakeFund1 />
-        </Route> */}
+        <Route exact path="/create">
+          <CreateFund />
+        </Route>
       </Switch>
     </BrowserRouter>
   );

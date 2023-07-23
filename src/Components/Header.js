@@ -29,12 +29,12 @@ const ButtonDefault = styled.button`
   cursor: pointer;
   width: 120px;
   display: flex;
-  align-items: center;
 `;
 
 const Nav = styled.div`
   display: flex;
   width: 700px;
+  align-items: center;
 `;
 
 const NavButton = styled(ButtonDefault)`
@@ -67,7 +67,9 @@ const Header = () => {
           <NavButton>인기</NavButton>
           <NavButton>신규</NavButton>
           <NavButton>마감임박</NavButton>
-          <NavButton bold={'bold'}>프로젝트 올리기</NavButton>
+          <Link to="/create">
+            <NavButton bold={'bold'}>프로젝트 올리기</NavButton>
+          </Link>
         </Nav>
       </FirstRow>
     </HeaderContainer>
