@@ -6,3 +6,13 @@ export const getFundingName = async () => {
   );
   return response.data;
 };
+
+export const getFunding = async () => {
+  const response = await axios.get(`http://localhost:8080`);
+  return response.data;
+};
+
+export const getFundingOne = async (fundingId) => {
+  const response = await axios.get(`http://localhost:8080/${fundingId}}`);
+  return response.data;
+};

@@ -2,6 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+import CreateIcon from '@mui/icons-material/Create';
+import DeleteIcon from '@mui/icons-material/Delete';
+import { colors } from '@mui/material';
+
 const HeaderContainer = styled.header`
   display: flex;
   flex-direction: column;
@@ -33,7 +37,7 @@ const ButtonDefault = styled.button`
 
 const Nav = styled.div`
   display: flex;
-  width: 700px;
+  width: 900px;
   align-items: center;
 `;
 
@@ -70,6 +74,22 @@ const Header = () => {
           <Link to="/create">
             <NavButton bold={'bold'}>프로젝트 올리기</NavButton>
           </Link>
+          <div style={{ display: 'flex' }}>
+            <NavButton
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '5px',
+              }}
+            >
+              <CreateIcon /> 수정하기
+            </NavButton>
+            <NavButton
+              style={{ display: 'flex', alignItems: 'center', gap: '5px' }}
+            >
+              <DeleteIcon /> 삭제하기
+            </NavButton>
+          </div>
         </Nav>
       </FirstRow>
     </HeaderContainer>
